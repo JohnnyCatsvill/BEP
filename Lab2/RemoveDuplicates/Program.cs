@@ -31,7 +31,6 @@ namespace RemoveDuplicates
                 if (!is_find)
                 {
                     sout += sin[i];
-                    
                 }
             }
         }
@@ -47,7 +46,7 @@ namespace RemoveDuplicates
             }
             else
             {
-            Console.WriteLine("Incorrect number of arguments!");
+                Console.WriteLine("Incorrect number of arguments!");
             }
         }
     }
